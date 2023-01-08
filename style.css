@@ -201,3 +201,14 @@ body {
     color: #fff;
     background: #242424;
 }
+
+/* video page */
+.video {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    min-width: 885px;
+    height: calc(100vh - 60px);
+    background: #ffff;
+    padding-left: 20px;
+}
