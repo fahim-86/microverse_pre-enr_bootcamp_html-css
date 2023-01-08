@@ -11,7 +11,7 @@
 body {
     position: relative;
     background: #f0f0f0;
-    font-family: 'roboto', sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .navbar {
@@ -115,7 +115,7 @@ body {
 /* Sidebar */
 .side-bar {
     position: fixed;
-    top: 60px;
+    top: 120px;
     right: 0;
     min-width: 480px;
     width: 480px;
@@ -124,10 +124,20 @@ body {
     padding-right: 10px;
 }
 
+.sidebar-content {
+    display: flex;
+}
+
+.sidebar-text {
+    margin-top: 8px;
+    line-height: 21px;
+}
+
 .links {
     display: block;
     width: 100%;
     padding: 10px 20px;
+    padding-right: 8px !important;
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -138,8 +148,8 @@ body {
 }
 
 .links img {
-    height: 25px;
-    margin-right: 20px;
+    height: 110px;
+    border-radius: 10px;
 }
 
 .links:hover,
